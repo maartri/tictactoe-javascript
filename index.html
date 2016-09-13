@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+   <script src="js/scripts.js"></script>
+   <style>
+      ul.board-wrap li{
+        width: 30%;
+        float: left;
+        text-align: center;
+        line-height: 4em;
+      }
+
+      ul.board-wrap li > span{
+        border: 1px solid black;
+        border-radius: 3px;
+        padding: 0.6em 1em 0.6em 1em;
+      }
+      ul.board-wrap li > span:hover{
+        cursor:pointer;
+      }
+      ul{
+        list-style:none;
+      }
+      div.reset{
+        clear:both;
+      }
+      div.board-container{
+        width:15em;
+        margin:0 auto;
+      }
+   </style>
+ </head>
+  <body>
+     <div class="board-container">
+        <ul class="board-wrap">
+           <li id="sqr1"><span>+<span></li>
+           <li id="sqr2"><span>+<span></li>
+           <li id="sqr3"><span>+<span></li>
+           <li id="sqr4"><span>+<span></li>
+           <li id="sqr5"><span>+<span></li>
+           <li id="sqr6"><span>+<span></li>
+           <li id="sqr7"><span>+<span></li>
+           <li id="sqr8"><span>+<span></li>
+           <li id="sqr9"><span>+<span></li>
+        </ul>
+        <div class="reset">Reset Board</div>
+     </div>
+  </body>
+</html>
