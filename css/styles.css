@@ -1,0 +1,25 @@
+ul.board-wrap li{
+    width: 30%;
+    float: left;
+    text-align: center;
+    line-height: 4em;
+}
+
+ul.board-wrap li > span{
+    border: 1px solid black;
+    border-radius: 3px;
+padding: 0.6em 1em 0.6em 1em;
+}
+ul.board-wrap li > span:hover{
+    cursor:pointer;
+}
+ul{
+    list-style:none;
+}
+div.reset{
+    clear:both;
+}
+div.board-container{
+    width:15em;
+    margin:0 auto;
+}
